@@ -4,39 +4,39 @@ import "yet-another-react-lightbox/styles.css";
 
 const photos = [
   {
-    image: "/images/gerbang-vtc.png",
+    image: `${import.meta.env.BASE_URL}images/gerbang-vtc.png`,
     title: "Gerbang Utama",
   },
   {
-    image: "/images/jalan1.png",
+    image: `${import.meta.env.BASE_URL}/images/jalan1.png`,
     title: "Jalan Kompleks",
   },
   {
-    image: "/images/jalan2.png",
+    image: `${import.meta.env.BASE_URL}/images/jalan2.png`,
     title: "Area Perumahan",
   },
   {
-    image: "/images/lapanganbasket-vtc.png",
+    image: `${import.meta.env.BASE_URL}/images/lapanganbasket-vtc.png`,
     title: "Lapangan Basket",
   },
   {
-    image: "/images/lapangantenis-vtc.png",
+    image: `${import.meta.env.BASE_URL}/images/lapangantenis-vtc.png`,
     title: "Lapangan Tenis",
   },
   {
-    image: "/images/masjid-vtc.png",
+    image: `${import.meta.env.BASE_URL}/images/masjid-vtc.png`,
     title: "Masjid",
   },
   {
-    image: "/images/posdepan-vtc.png",
+    image: `${import.meta.env.BASE_URL}/images/posdepan-vtc.png`,
     title: "Pos Keamanan",
   },
   {
-    image: "/images/posnyuamleng-vtc.png",
+    image: `${import.meta.env.BASE_URL}/images/posnyuamleng-vtc.png`,
     title: "Pos Nyuamleng",
   },
   {
-    image: "/images/posnyuamleng1-vtc.png",
+    image: `${import.meta.env.BASE_URL}/images/posnyuamleng1-vtc.png`,
     title: "Area Pos Nyuamleng",
   },
 ];

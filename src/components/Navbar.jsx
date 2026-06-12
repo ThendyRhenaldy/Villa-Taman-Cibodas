@@ -39,7 +39,7 @@ function Navbar() {
         {/* Logo */}
         <div className="flex items-center gap-3">
           <img
-            src="/images/logo-vtc.jpg"
+            src={`${import.meta.env.BASE_URL}images/logo-vtc.jpg`}
             alt="Logo Villa Taman Cibodas"
             className="h-10 md:h-12 w-auto rounded"
           />

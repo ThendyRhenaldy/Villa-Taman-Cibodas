@@ -4,7 +4,7 @@ function Hero() {
       id="hero"
       className="relative min-h-screen bg-cover bg-center flex items-center justify-center"
       style={{
-        backgroundImage: "url('/images/gerbang-vtc.png')",
+        backgroundImage: `url('${import.meta.env.BASE_URL}images/gerbang-vtc.png')`,
       }}
     >
       {/* Overlay */}
